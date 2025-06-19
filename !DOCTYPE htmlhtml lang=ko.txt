@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="믿을 수 있는 아웃소싱 파트너 - 다원테크노">
+  <meta name="keywords" content="아웃소싱, 채용 대행, 인재 파견, 물류 아웃소싱, 기업 서비스">
+  <title>다원테크노</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+    section { padding: 30px; background: white; margin: 20px; border-radius: 8px; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; }
+    .button { background: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+  </style>
+  <!-- 네이버 사이트 확인용 메타 태그 -->
+  <meta name="naver-site-verification" content="여기에_네이버_메타태그_값_입력">
+</head>
+<body>
+  <header>
+    <h1>다원테크노</h1>
+    <p>사람과 기업을 잇는 신뢰의 파트너</p>
+  </header>  <section>
+    <h2>회사 소개</h2>
+    <p>다원테크노는 전문 인재 파견, 채용 대행, 물류 아웃소싱 등 다양한 기업 맞춤형 서비스를 제공합니다. 믿을 수 있는 파트너로 귀사의 경쟁력을 높여드립니다.</p>
+  </section>  <section>
+    <h2>서비스</h2>
+    <ul>
+      <li>인재 파견 및 채용 대행</li>
+      <li>물류/제조/IT 아웃소싱</li>
+      <li>현장 운영 및 인력관리</li>
+    </ul>
+  </section>  <section>
+    <h2>문의하기</h2>
+    <p>이메일: info@dawontechno.co.kr<br>
+    전화: 02-1234-5678</p>
+    <a href="mailto:info@dawontechno.co.kr" class="button">이메일 문의</a>
+  </section>  <footer>
+    <p>&copy; 2025 DawonTechno Co., Ltd. All rights reserved.</p>
+  </footer></body>
+</html>
