@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>다원테크노</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Arial', sans-serif; background-color: #ffffff; color: #333; }
+    header {
+      background-color: #ffffff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      color: #005bac;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li {
+      font-weight: bold;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?fit=crop&w=1600&q=80') center/cover no-repeat;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 60px 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      flex: 1;
+      min-width: 220px;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+    .card h3 {
+      color: #005bac;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #f1f1f1;
+      padding: 30px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>다원테크노</h1>
+    <nav>
+      <ul>
+        <li><a href="#">회사소개</a></li>
+        <li><a href="#">사업분야</a></li>
+        <li><a href="#">채용정보</a></li>
+        <li><a href="#">고객센터</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>준비된 인재가 모인 곳</h2>
+    <p>고객과 인재를 이어주는 다원테크노의 전문 솔루션</p>
+  </section>
+
+  <section class="section">
+    <h2>주요 서비스</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>인재파견/도급</h3>
+        <p>고객사가 핵심업무에 집중할 수 있도록 인재 파견과 도급 솔루션을 제공합니다.</p>
+      </div>
+      <div class="card">
+        <h3>아웃소싱 운영</h3>
+        <p>전문 인력과 함께 물류, 제조 등 다양한 현장을 운영합니다.</p>
+      </div>
+      <div class="card">
+        <h3>채용대행/헤드헌팅</h3>
+        <p>검증된 인재 채용을 위한 채용대행 및 헤드헌팅 서비스를 제공합니다.</p>
+      </div>
+      <div class="card">
+        <h3>건물 종합관리</h3>
+        <p>호텔, 리조트, 건물 관리 등 시설운영 서비스도 함께 지원합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 다원테크노 | 서울특별시 구로구 디지털로 32나길 38 서림빌딩 (7층) | 고객센터: 02-1234-5678 | info@dawontechno.co.kr</p>
+  </footer>
+</body>
+</html>
